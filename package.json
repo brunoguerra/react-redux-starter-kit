@@ -22,7 +22,7 @@
     "codecov": "cat coverage/*/lcov.info | codecov",
     "start": "better-npm-run start:prod",
     "serve": "better-npm-run start",
-    "postinstall": "npm run deploy:prod",
+    "postinstall": "npm run deploy:prod"
   },
   "betterScripts": {
     "compile": {
